@@ -7,7 +7,7 @@
  * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
 */
 
-@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css");
+@import url("updates/SkeuoCordBase.css");
 /*replace SkeuoCordBase with SkeuoCord_BGImport to use custom BG image*/
 /*replace SkeuoCordBase with SkeuoCord_BGImport_ExtTransp to use custom BG image with more transparent UI*/
 /*replace SkeuoCordBase with SkeuoCord_Recolor to change default blue accent color with your own, SkeuoCord_Recolor_CustomBG for recolor+custom BG*/

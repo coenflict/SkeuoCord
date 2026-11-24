@@ -6,7 +6,7 @@
  * @var color accentcolor "Accent color" #3B4C81
  * @var text bg-image "Background image" 
 */
-@import url("https://marda33.github.io/SkeuoCord/updates/SkeuoCord_BGImport.css");
+@import url("SkeuoCord_BGImport.css");
 
 /*colorBrand*/
 .lookFilled_9OQtot.colorBrand_9OQtot, .lookInverted_a299dc.colorBrand_9OQtot, .lookOutlined_9OQtot.colorBrand_9OQtot, .lookFilled_9OQtot.colorBrandNew__8872c, .lookInverted_a299dc.colorBrandNew__8872c, .compactButton_sFyjfh, .footer.footer-2yfCgX.footer_c33701.footer-1hTRRZ button, .subscribeTooltipButton-r9C2rU, .subscribeTooltipButton-rIF3w3, .pageButton_0MrDiE.activeButton_0MrDiE, .shinyButton_d5e126, .ripple_seLrDE, .playButtonContainer_seLrDE,

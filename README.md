@@ -1,17 +1,27 @@
-![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/updates/Logo.png)
-#
-SkeuoCord gives Discord a skeuomorphic overhaul. Almost every part of its interface, from channels to the Server Boost page, is themed for a complete look. Both dark and light themes *(including the Dark Sidebar option for the light theme)* are supported. 
-- *User avatar radiuses-borders, app background image, text shadows and UI element colors can be customized. Look for the related variables in the theme import file.*
+# SkeuoCord
 
-![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Dark%20Theme).png)
+SkeuoCord brings beveled toolbars, inset controls, square avatars, and blue accents to Discord. This fork updates Marda33’s original theme for the current desktop layout.
 
-![screenshot](https://raw.githubusercontent.com/Marda33/SkeuoCord/master/Preview%20(Light%20Theme).png)
+## Install on Equicord for Windows
 
-### Downloads
-- BetterDiscord: https://betterdiscord.app/theme/SkeuoCord
-- Vencord: `https://marda33.github.io/SkeuoCord/SkeuoCord.theme.css`
+1. Download [SkeuoCord.theme.css](https://raw.githubusercontent.com/coenflict/SkeuoCord/master/SkeuoCord.theme.css).
+2. Place it in `%APPDATA%\Equicord\themes`. You can also open the folder from **User Settings → Themes → Local Themes**.
+3. Enable **SkeuoCord** under **Local Themes**. If you already use the upstream theme, disable that copy before enabling this one.
 
-#
-- *SkeuoCord requires English (US/UK) to be the selected language for button icon theming, due to the way they're specified in Discord.* 
-*If your client is set to another language, the color of the regular icons will be changed and dropshadow filters will be applied to them instead.*
-- *If you don't want to use SkeuoCord's brand color replacement, use SkeuoCord_NoBrandReplace.theme.css from SkeuoCord's GitHub repo.*
+The main stylesheet includes its artwork and defaults. Edit the variables near the top to customize avatar corners and borders, text shadows, and the window’s gradients.
+
+## Compatibility
+
+The desktop pass covers the title bar, server and DM sidebar, account controls, channel header, composer, menus, and settings tabs. The local smoke test used the installed Equicord theme loader with Discord’s Windows renderer and November 24, 2026 desktop styles. It exercised light, dark, darker, midnight, light with a dark sidebar, a custom gradient, and a narrow window using synthetic content.
+
+The optional no-brand, horizontal server list, and classic title bar stylesheets use relative imports. To use them locally, keep their original filenames and copy the repository’s `updates` folder alongside the theme files. Enable the no-brand variant in place of the main entry. The horizontal list and title bar stylesheets are add-ons.
+
+Some original replacement icons match Discord’s English labels. Other languages use the native icons in those positions.
+
+## Original design
+
+These previews are from [Marda33’s upstream SkeuoCord](https://github.com/marda33/skeuocord).
+
+![Original SkeuoCord dark preview](Preview%20(Dark%20Theme).png)
+
+![Original SkeuoCord light preview](Preview%20(Light%20Theme).png)
